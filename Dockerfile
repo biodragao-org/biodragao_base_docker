@@ -9,7 +9,7 @@ RUN 	apt update
 RUN     conda config --add channels defaults
 RUN     conda config --add channels bioconda
 RUN     conda config --add channels conda-forge
-RUN 	apt install aria2
+RUN 	apt install aria2 sudo curl unzip -y
 # setup rclone
 RUN 	curl https://rclone.org/install.sh | sudo bash
 
