@@ -20,4 +20,5 @@ RUN 	curl https://rclone.org/install.sh | sudo bash
 RUN	curl -sL https://taskfile.dev/install.sh | sh
 
 
-
+# setup micro
+RUN curl https://getmic.ro | bash && mv ./micro /usr/local/bin/
