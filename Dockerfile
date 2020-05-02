@@ -22,3 +22,9 @@ RUN	curl -sL https://taskfile.dev/install.sh | sh
 
 # setup micro
 RUN curl https://getmic.ro | bash && mv ./micro /usr/local/bin/
+
+# powershell
+# dotnet
+# java11
+# gradle
+# nextflow
