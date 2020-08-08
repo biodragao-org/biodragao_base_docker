@@ -1,3 +1,3 @@
-# biodragao_base_docker
+# base
 
 This image is preconfigured with `miniconda` for `python2`.
